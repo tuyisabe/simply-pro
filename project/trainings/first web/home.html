@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="homeStyle.css">
+</head>
+<body>
+   <a href="index.html">Back</a> 
+  <div class="container"><fieldset style="">  <legend style="font-size: 18px; background: red; width:500px; text-align:center;"><h2>SIGN UP FORM</h2></legend>
+<div class="frm-container">
+  <div class="firsname"> 
+    <label for="firstname">Names</label>
+    <input type="text" placeholder="First Name" id="firstname" name="firstname" style="width: 240px;">
+    <input type="text" placeholder="Last Name" id="lastname" name="lastname" style="width: 240px;">    
+</div> 
+<div class="phone">
+    <label for="phone">Phone</label>
+    <input type="text" style="width: 60px; padding-left:0px" placeholder="+250" maxlength="4" pattern="0-9">
+    <input type="phone" name="phone" placeholder="Phone number" style="width: 430px;">
+</div>
+<div class="birthdate">
+    <label>Birth Day</label><input type="date" name="bd" style="width: 500px;">
+</div>
+<div class="radio">
+    <label>Gender:</label><input type="radio" checked name="gender">Male 
+    <input type="radio" name="gender">Female
+</div>
+<div class="select">
+ <label>Country</label> <select name="country" id="" style="width: 500px;">
+            <option value="">----Select Country----</option>
+            <option value="rwanda">Rwanda</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+        </select>
+</div>
+<div class="email">
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Enter Email" style="width: 500px;">
+</div>
+<div class="password">
+    <label>Password</label><input type="password" name="password" minlength="8" style="width: 500px;">
+</div>
+<div class="check">
+    <label>Game Played:</label><input type="checkbox" name="game">Basketball<input type="checkbox" checked name="game">Football<input type="checkbox" name="game">Vollyball
+</div>
+<div class="comment">
+    <label>Other Comment</label><textarea name="game" id="" cols="0" rows="0" style="width: 500px; height:150px;"></textarea>
+</div>
+<div class="terms">
+    <input type="checkbox" name="term">Agree to the Term of use
+</div>
+<div class="sbmt">
+   <button type="submit" name="save-btn" class="btn">Save</button>
+   <button type="reset" name="reset" class="btn"> Reset</button>
+</div>
+</fieldset>
+</div>
+</body>
+</html>
